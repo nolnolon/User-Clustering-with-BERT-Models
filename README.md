@@ -1,7 +1,7 @@
 # The problem
 People do not tweet about the same things all the time. Transformer models, however, are mostly applied to single-topic documents. Can we correctly infer a user's ideology from small, thematically diverse tweets using transformers and clustering? Can preprocessing tweets based on their similarity help achieve that? 
 
-# The contributions 
+# The answer 
 Yes, we can. However, all tested combinations of methods hit an accuracy ceiling of 62-64%.  
 Embedding with Sentence-BERT and filtering tweets based on cosine similarity can improve information capture by 20%. 
 Transfomer-powered clustering (BERTopic) is no better than legacy clustering for this problem; even worse, BERTopic's own clustering algorithm may fail to capture data relationships right. 
