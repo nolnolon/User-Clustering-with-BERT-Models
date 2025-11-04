@@ -1,10 +1,10 @@
 # The problem
-One of the best NLP architectures, transformer models, are typically applied to texts that have no more than one topic. How effective are they on sparse, heterogeneous text? This thesis tests transformer's usability in such settings by trying to cluster twitter users along partisan lines. As a byproduct, it also puts forward a preprocessing method that improves information capture by 20%. 
+One of the best NLP architectures, transformer models, are typically applied to texts that revolve around one primary topic. How effective are they on sparse, heterogeneous text? This thesis compares a family of transformer models to legacy methods in application to user clustering. As a byproduct, it also presents a preprocessing method that improves information capture in this setting by 20%. 
 
 # The outcome 
-All tested methods hit an accuracy ceiling of 62-64%. 
-Filtering tweets based on cosine similarity can improve information capture by 20% as long as embeddings are created on a sentense level. 
 Transfomer-powered clustering (BERTopic) is no better than legacy clustering for this problem; even worse, BERTopic's own clustering algorithm may fail to capture data relationships right. 
+Filtering tweets based on cosine similarity can improve information capture by 20% as long as embeddings are created on a sentense level. However, all tested methods hit an accuracy ceiling of 62-64%. 
+
 
 # Structure
 
