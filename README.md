@@ -1,5 +1,5 @@
 # The problem
-People do not tweet about the same things all the time. One of the best NLP architectures, transformer models, are typically applied to texts that have no more than one topic. How effective are they on sparse, heterogeneous text? This thesis tests transformer's usability in such settings by trying to cluster twitter users along partisan lines. As a byproduct, it also puts forward a preprocessing method that improves information capture by 20%. 
+One of the best NLP architectures, transformer models, are typically applied to texts that have no more than one topic. How effective are they on sparse, heterogeneous text? This thesis tests transformer's usability in such settings by trying to cluster twitter users along partisan lines. As a byproduct, it also puts forward a preprocessing method that improves information capture by 20%. 
 
 # The outcome 
 All tested methods hit an accuracy ceiling of 62-64%. 
